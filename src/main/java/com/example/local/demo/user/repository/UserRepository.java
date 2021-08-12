@@ -9,5 +9,5 @@ import java.util.List;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, Long> {
-    public List<User> findAllByName(String name);
+    List<User> findAllByName(String name);
 }

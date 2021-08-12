@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 public class User {
     @Id
-    private String userid;
+    private String userId;
     private String name;
     private String email;
     private String password;
@@ -21,7 +21,7 @@ public class User {
     @Override
     public String toString(){
         return "회원명세{" +
-                "아이디='" + userid + '\'' +
+                "아이디='" + userId + '\'' +
                 ", 이름='" + name + '\'' +
                 ", 이메일='" + email + '\'' +
                 ", 비밀번호='" + password + '\'' +
